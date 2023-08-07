@@ -1,0 +1,342 @@
+:root *
+{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Spectral:ital,wght@1,200&display=swap');
+html
+{
+background-image: url(https://cdn.discordapp.com/attachments/999904516759617549/999905293695717446/landing-page.jpg);
+width: 100%;
+height: 100%;
+position: relative;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+
+.navbar
+{
+    font-family: 'Alegreya SC', serif;
+    color:aliceblue;
+    text-decoration: none;
+    background: #f6f6f627;
+    border: 0.25px solid black;
+    width: 30.20%;
+    height: 53px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    list-style: none;
+
+}
+
+.navbar li a{
+    color: #2B7AB6;
+    text-decoration: none;
+overflow: auto;
+padding: 10px 30px 10px ;
+list-style: none;
+font-style: italic;
+font-weight: 600;
+}
+.navbar li a:hover{
+    color: #B00E0A;
+}
+.adv{
+    color: aliceblue;
+    width: 344px;
+    height: 222px;
+    font-family: 'Special Elite', cursive;
+    font-size: 24px;
+    position: absolute;
+    top:45%;
+    left: 1%;
+    text-align: center;
+    cursor: default;
+}
+.logo{
+    position: absolute;
+    top:80%;
+    left:1%;
+}
+.catch_line{
+    position: absolute;
+        width: 400px;
+        height: 38px;
+        left: 2%;
+        top: 9%;
+
+        font-family: 'Alegreya SC';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 33px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #63C5EA;
+        cursor: default;
+}
+.search{
+    position: absolute;
+        width: 284px;
+        height: 53px;
+        left: 83%;
+        top: 1.4%;
+        font-family: 'Spectral', serif;
+        font-size: large;
+        background: #143762;
+        border: 5px solid #112F55;
+        opacity: 0.8;
+        border-radius: 40px;
+        color: aliceblue;
+         /* cursor: default; */
+        
+    
+}
+.losi{
+    position: absolute;
+        width: 208px;
+        height: 62px;
+        left: 2%;
+        top: 25%;
+        text-align: center;
+        text-decoration: none;
+        background: #3087C7;
+        border-radius: 40px;
+        stroke: #143762 ;
+        
+}
+.losi a{
+    text-decoration: none;
+
+}
+.login{
+    font-family: 'Spectral', serif;
+    color: aliceblue;
+    font-size: 24px;
+    position:absolute;
+    left:35%;
+    bottom: 0.004%;
+    cursor: pointer;
+}
+.login:hover
+{
+    color: #000000;
+}
+.losi:hover
+{
+    color: aqua;
+}
+.si
+{
+    position: absolute;
+        width: 208px;
+        height: 62px;
+        left: 2%;
+        top: 35%;
+        text-align: center;
+        text-decoration: none;
+        background: #3087C7;
+        border-radius: 40px;
+        stroke: #143762;
+}
+.si a
+{
+    text-decoration: none;
+}
+.signup
+{
+    font-family: 'Spectral', serif;
+        color: aliceblue;
+        font-size: 24px;
+        position: absolute;
+        left: 35%;
+        bottom: 0.002%;
+        cursor: pointer;
+}
+.signup:hover
+{
+    color: #000000;
+}
+.ac
+{
+    position: absolute;
+    bottom: 3%;
+    right:2%;
+}
+.abt_txt
+{
+    text-decoration: none;
+    font-family: 'Alegreya SC', serif;
+    font-style: italic;
+    font-size: 24px;
+    color: aliceblue;
+}
+::placeholder
+{
+    color: aliceblue;
+    font-size: larger;
+    
+}
+#icon1
+{
+    width: 30px;
+    left: 96%;
+    height: auto;
+    top: 2.20%;
+    opacity: 1;
+    cursor: pointer;
+}
+.log_scr
+{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: ease-in 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.log_scr:target
+{
+    visibility: visible;
+    opacity: 1;
+}
+.wrapper
+{
+    margin: 70px auto;
+    padding: 20px;
+    background: #bfb5b50c;
+    border-radius: 20px;
+    width: 30%;
+    height: 28%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    opacity: 0.5;
+}
+.wrapper .close
+{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+.wrapper .content
+{
+    max-height: 80%;
+    overflow: auto;
+    text-align: center;
+    font-family: 'Alegreya SC', serif;
+    color: aliceblue;
+}
+.container
+{
+    border-radius: 10px;
+    background-color: #bfb5b50c;
+    padding: 20px 0;
+}
+form label{
+    text-transform: uppercase;
+    font-family: 'Alegreya SC', serif;
+}
+.submiting
+{
+    position: absolute;
+    bottom: 10%;
+    right:10%;
+    width: 12%;
+    height: 12%;
+    background-color: #2B7AB6;
+    border: #112F55 solid 2px;
+    border-radius: 40px;
+
+}
+.container input[type=text],input[type=password]
+{
+        width: 40%;
+        height: 30px;
+        background-color: #2B7AB6;
+        border: #112F55 solid 2px;
+        border-radius: 40px;
+        color: aliceblue;
+}
+.sig_scr {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: ease-in 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sig_scr:target {
+    visibility: visible;
+    opacity: 1;
+}
+.wrapper_1 {
+    margin: 70px auto;
+    padding: 20px;
+    background: #bfb5b50c;
+    border-radius: 20px;
+    width: 30%;
+    height: 40%;
+    position: relative;
+    opacity: 0.5;
+    transition: all 5s ease-in-out;
+}
+
+.wrapper_1 .close {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+.wrapper_1 .content_1 {
+    max-height: 80%;
+    overflow: auto;
+    text-align: center;
+    font-family: 'Alegreya SC', serif;
+    color: aliceblue;
+}
+.container_1 {
+    border-radius: 10px;
+    background-color: #bfb5b50c;
+    padding: 20px 0;
+}
+.container_1 input[type=text],
+input[type=password] {
+    width: 40%;
+    height: 30px;
+    background-color: #2B7AB6;
+    border: #112F55 solid 2px;
+    border-radius: 40px;
+    color: aliceblue;
+}
+.submiting:hover
+{
+    cursor: pointer;
+    color: #B00E0A;
+}

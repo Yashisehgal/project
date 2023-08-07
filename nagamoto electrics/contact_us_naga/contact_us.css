@@ -1,0 +1,256 @@
+html{
+    background: url("https://cdn.discordapp.com/attachments/999904516759617549/999925938835959878/20191120064129_F774-removebg-preview_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    background-color: #141313;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.navbar
+{
+    font-family: 'Alegreya SC', serif;
+    color:aliceblue;
+    text-decoration: none;
+    background: #353333;
+    border: 0.25px solid black;
+    width: 1440px;
+    height: 61px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    list-style: none;
+
+}
+
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+overflow: auto;
+padding: 10px 30px 10px ;
+list-style: none;
+}
+.navbar li a:hover{
+    color: #FD2222;
+}
+
+.search{
+    position: absolute;
+        width: 210px;
+        height: 53px;
+        left: 83%;
+        top: 2.5%;
+        font-family: 'Spectral', serif;
+        font-size: large;
+        background: black;
+        border: 2px solid black;
+        opacity: 0.4;
+        border-radius: 45px;
+        color: white;
+        cursor: default;
+        
+        
+    
+}
+
+.test{
+    font-family: 'Alegreya SC', serif;
+    color:#ffffff;
+    position: absolute;
+    cursor: default;
+    
+    font-size: 20px;
+    left: 4%;
+    top: 12%;
+}
+.nir1{
+    font-family: 'Alegreya SC', serif;
+    color:#ffffff;
+   
+    font-size: 45px;
+
+}
+.nir2{
+    font-family: 'Alegreya SC', serif;
+    color:#ffffff;
+    position: absolute;
+    top: 50%;
+    
+    font-size: 20px;
+}
+.phone{
+    
+    height: 5%;
+    width: 5%;
+    padding: none;
+    position: absolute;
+    left: -8%;
+    top: 45%;
+}
+.nir3{
+    font-family: 'Alegreya SC', serif;
+    color:#ffffff;
+    width: 500px;
+    position: absolute;
+    top: 82%;
+    
+    font-size: 20px;
+}
+
+.email{
+    
+    height: 7%;
+    width: 7%;
+    padding: none;
+    position: absolute;
+    left: -10%;
+    top: 58%;
+}
+.nir4{
+    font-family: 'Alegreya SC', serif;
+    color:#ffffff;
+    width: 300px;
+    position: absolute;
+    top: 100%;
+    
+    font-size: 20px;
+}
+.address{
+    
+    height: 7%;
+    width: 7%;
+    padding: none;
+    position: absolute;
+    left: -9%;
+    top: 71%;
+}
+
+.icons{
+    position: absolute;
+    left: 95%
+}
+
+.nir5{
+    font-family: 'Alegreya SC', serif;
+    color:aliceblue;
+    text-decoration: none;
+    background: #f6f6f627;
+    border: 0.25px solid black;
+    width: 288px;
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    border-radius: 40px;
+    list-style: none;
+    margin-inline-end: 5%;
+    position: absolute;
+    top: 56%;
+    left: 2%;
+    cursor: default;
+}
+.nir5_1{
+    font-family: 'Alegreya SC', serif;
+    color:aliceblue;
+    text-decoration: none;
+    background: #f6f6f627;
+    border: 0.25px solid black;
+    width: 288px;
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    border-radius: 40px;
+    list-style: none;
+    margin-inline-end: 5%;
+    position: absolute;
+    top: 56%;
+    left: 21%;
+    cursor: default;
+}
+
+.nir6{
+    font-family: 'Alegreya SC', serif;
+    color:aliceblue;
+    text-decoration: none;
+    background: #f6f6f627;
+    border: 0.25px solid black;
+    width: 665px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    border-radius: 40px;
+    list-style: none;
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    cursor: default;
+}
+.nir7{
+    font-family: 'Alegreya SC', serif;
+    color: #ffffff;
+    text-decoration: none;
+    background: #f6f6f627;
+    border: 0.25px solid black;
+    width: 625px;
+    height: 188px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    border-radius: 40px;
+    list-style: none;
+    position: absolute;
+    top: 56%;
+    left: 54%;
+    cursor: default;
+    
+}
+::placeholder{
+    color: #ffffff;
+}
+.NIR8{
+    font-family: 'Alegreya SC', serif;
+    color:aliceblue;
+    text-decoration: none;
+    background: #FD2222;
+    border: 0.25px solid black;
+    width: 288px;
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    border-radius: 30px;
+    list-style: none;
+    margin-inline-end: 5%;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
+
+.NIR8 a{
+    
+    position: absolute;
+    
+}
+.NIR8:hover{
+    color: black;
+}
+
+#icon1
+{
+    width: 30px;
+    left: 93%;
+    height: auto;
+    top: 3.60%;
+    opacity: 1;
+    cursor: pointer;
+    border: white;
+}
+.twitter img:hover{
+    color: red;
+}
+
+
